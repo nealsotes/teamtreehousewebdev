@@ -92,3 +92,29 @@ section h1 {
 .card:hover {
     border-color: #ff99ff;
 }
+
+.skills li {
+    display: inline-block;
+    margin-left: 2px;
+    color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.skills li:nth-child(odd) {
+    background-color: #0399FF;
+    padding: 5px 7px;
+}
+.skills li:nth-child(even) {
+    background-color: #FF9904;
+    padding: 5px 7px;
+}
+footer li {
+    display: inline;
+    margin-left: 20px;
+    text-align: center;
+}
+footer {
+    margin-top: 60px;
+}
+
+
