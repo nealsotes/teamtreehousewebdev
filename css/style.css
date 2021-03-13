@@ -80,3 +80,15 @@ section h1 {
     font-size: 15px;
     margin-bottom: 50px;
 }
+.card {
+    max-width: 500px;
+    margin: 30px;
+    text-align: left;
+    background-color: #fff;
+    padding: 20px 40px 40px ;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+}
+.card:hover {
+    border-color: #ff99ff;
+}
