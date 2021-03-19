@@ -44,7 +44,10 @@ header {
 }
 
 .bg-hero {
-    background-image: url("../img/portland.jpg");
+    background: url("../img/cebu.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
     padding-top: 60px;
